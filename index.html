@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <table border="0" cellspacing="7px" cellpadding="5px">
+        <caption><h1 class="title" >CALCULATOR</h1></caption>
+        <tr>
+        <td  colspan="3" bgcolor="black"><input type="text" id="result" class="display"></td>
+        <td align="center"><button class="b" onclick="ac()">AC</button></td>
+        </tr>
+        <tr>
+        <td align="center"><button class="b" onclick="show('1')">1</button></td>
+        <td align="center"><button class="b" onclick="show('2')">2</button></td>
+        <td align="center"><button class="b" onclick="show('3')">3</button></td>
+        <td align="center"><button class="b" onclick="show('+')">+</button></td>
+        </tr>
+        <tr>
+        
+        <td align="center"><button class="b" onclick="show('4')">4</button></td>
+        <td align="center"><button class="b" onclick="show('5')">5</button></td>
+        <td align="center"><button class="b" onclick="show('6')">6</button></td>
+        <td align="center"><button class="b" onclick="show('-')">-</button></td>
+        </tr>
+        <tr>
+        <td align="center"><button class="b" onclick="show('7')">7</button></td>
+        <td align="center"><button class="b" onclick="show('8')">8</button></td>
+        <td align="center"><button class="b" onclick="show('9')">9</button></td>
+        <td align="center"><button class="b" onclick="show('*')">*</button></td>
+        </tr>
+        <tr>
+        <td align="center"><button class="b" onclick="show('0')">0</button></td>
+        <td align="center"><button class="b"  onclick="show('%')">%</button></td>
+        <td align="center"><button class="b"  onclick="show('/')">/</button></td>
+        <td align="center"><button class="b" onclick="calc()">=</button></td>
+        </tr>
+    </table>
+</body>
+</html>
